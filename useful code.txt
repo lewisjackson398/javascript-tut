@@ -1,0 +1,168 @@
+//remove first and last item in an array
+function getFillings(sandwich) {
+	return sandwich.slice(1, -1)
+}
+
+//Convert Number to String of Dashes
+  myDash = "";
+    for (i = 1; i <= num; i++) {
+            myDash += "-";
+        }
+            return myDash;
+
+
+	if ((n1 || n2) + (n1 && n2) === 0) {
+		return true
+	}
+		 else if ((n1 || n2) + (n1 && n2) < 0) {
+		return false
+	}
+		else if ((n1 || n2) + (n1 && n2) > 0) {
+		return true
+	}
+
+
+//solve the equation
+return eval(s)
+
+//Reverse the Order of a String
+	return str.split("").reverse().join("");
+
+//Multiple of 100
+num % 100 == 0
+
+//Return the Four Letter Strings
+return arr.filter(word => word.length === 4);
+
+//Add up the Numbers from a Single Number
+RECURSION - HARD
+
+function addUp(num) {
+	var sum = 0;
+	for (var i = 1; i <= num; i++) {
+		sum += i
+	}
+	return sum
+}
+
+//Write a function that takes an array of elements and returns only the integers.
+
+function returnOnlyInteger(arr) {
+	return arr.filter((s)=> {
+		if (Number.isInteger(s)) {
+			return s
+		}
+	}
+)}
+
+//Create a function that takes in an initial word and filters out an array which contains words that start with the same letters as the initial word.
+
+function dictionary(initial, words) {
+	var arr = []
+	for (var i = 0; i < words.length; i++) {
+		if (words[i].startsWith(initial)) {
+			arr.push(words[i])
+		}
+		
+	}
+	return arr
+}
+
+//Create a function that adds a string ending to each member in an array.
+function addEnding(arr, ending) {
+	return arr.map(word => word + ending);
+}
+
+
+//Negate the Array of Numbers - flip pos with neg
+function negate(arr) {
+	return arr.map(value => -value)
+}
+
+
+
+//Eliminate Odd Numbers within an Array
+function noOdds(arr) {
+	return arr.filter(
+		function(x){ 
+			return x % 2 == 0 }
+	)
+}
+
+// Using ternary operator.
+
+state = is_nice ? "nice" : "not nice"
+
+if (is_nice)
+	state = "nice"
+else 
+	state = "not nice"
+
+
+//Create a function that takes a string and returns a string with its letters in alphabetical order.
+
+function AlphabetSoup(str) {
+var arr = str.split('');
+  var sorted = arr.sort();
+  return sorted.join('');
+}
+
+
+//Write a function that takes a two-digit number and determines if it's the largest of two possible digit swaps.
+function largestSwap(num) {
+	var num = num.toString();
+	return num[0] >= num[1]
+}
+
+
+//Create a function that takes a string and returns a string in which each character is repeated once.
+
+function doubleChar(str) {
+	return str.split("").map(x => x + x).join("")
+}
+
+
+//Create a function that takes a number as an argument and returns an array of numbers counting down from this number to zero.
+
+function countdown(start) {
+  var result = []        
+	
+	for (i = start ; i >= 0; i--) {
+                result[start-i] = i;
+            }
+            return result;
+        }
+
+
+//Create a function that takes ball speed bs and club speed cs as arguments and returns the smash factor to the nearest hundredth.
+
+function smashFactor(bs, cs) {
+	var a = bs / cs
+	var b = a.toFixed(2)
+	return Number(b)
+}
+
+//Create a function that takes two strings and returns true if the first string ends with the second string; otherwise return false.
+function checkEnding(str1, str2) {
+	if (str1.endsWith(str2)) {
+		return true
+	} else {
+		return false
+	}
+}
+
+//he determinant of that matrix is (calculations are explained later):
+
+E.G 3×6 − 8×4 = 18 − 32 = −14
+
+function calcDeterminant(matrix) {
+	return (matrix[0][0] * matrix[1][1]) - (matrix[0][1] * matrix[1][0])
+}
+
+//Create a function which validates whether a bridge is safe to walk on (i.e. has no gaps in it to fall through).
+
+function isSafeBridge(str) {
+	
+	var a = ' '
+	return str.includes(a) ? false : true
+}
